@@ -1,26 +1,89 @@
-<mxfile host="app.diagrams.net" modified="2023-11-22T15:45:24.704Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="CFKGTHkHCT3rLseBMxEU" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-22T16:15:52.527Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="5XACl-6OrFG20-jlpxgG" version="22.1.3" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="1050" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="1416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="IJhMHQY0hBz8gf7CSggV-36" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="600" y="280" width="440" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="IJhMHQY0hBz8gf7CSggV-37" value="Client Manage" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="600" y="280" width="120" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="IJhMHQY0hBz8gf7CSggV-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="160" y="320" width="360" height="200" as="geometry" />
+          <mxGeometry x="120" y="280" width="440" height="320" as="geometry" />
         </mxCell>
         <mxCell id="IJhMHQY0hBz8gf7CSggV-12" value="Atom Command&lt;br&gt;（Param Place Holder, Defalut Path)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="450" width="280" height="60" as="geometry" />
+          <mxGeometry x="200" y="520" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IJhMHQY0hBz8gf7CSggV-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="IJhMHQY0hBz8gf7CSggV-12" target="IJhMHQY0hBz8gf7CSggV-15" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="IJhMHQY0hBz8gf7CSggV-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="IJhMHQY0hBz8gf7CSggV-15" target="IJhMHQY0hBz8gf7CSggV-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="IJhMHQY0hBz8gf7CSggV-15" value="Deploy Template&lt;br&gt;(Accept Minimal Param)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="365" width="280" height="60" as="geometry" />
+          <mxGeometry x="200" y="420" width="280" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IJhMHQY0hBz8gf7CSggV-18" value="Command Storage" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="160" y="320" width="120" height="30" as="geometry" />
+        <mxCell id="IJhMHQY0hBz8gf7CSggV-18" value="Command Storage" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="120" y="280" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="IJhMHQY0hBz8gf7CSggV-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="320" width="120" height="60" as="geometry" />
+        <mxCell id="IJhMHQY0hBz8gf7CSggV-22" value="User Spec Template&lt;br&gt;(A Set Of User Param)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="320" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IJhMHQY0hBz8gf7CSggV-28" value="Info Storage&lt;br&gt;(Status, IP, Name, Uuid......)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="520" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IJhMHQY0hBz8gf7CSggV-39" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="360" y="-80" width="440" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="IJhMHQY0hBz8gf7CSggV-40" value="Server" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="360" y="-80" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IJhMHQY0hBz8gf7CSggV-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="IJhMHQY0hBz8gf7CSggV-41" target="IJhMHQY0hBz8gf7CSggV-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IJhMHQY0hBz8gf7CSggV-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="IJhMHQY0hBz8gf7CSggV-41" target="IJhMHQY0hBz8gf7CSggV-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="140" />
+              <mxPoint x="740" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJhMHQY0hBz8gf7CSggV-41" value="User Hook" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="160" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IJhMHQY0hBz8gf7CSggV-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IJhMHQY0hBz8gf7CSggV-42" target="IJhMHQY0hBz8gf7CSggV-48">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="50" />
+              <mxPoint x="580" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJhMHQY0hBz8gf7CSggV-42" value="Command Queue&lt;br&gt;(Template Orderly To Atom Command&lt;br&gt;Storage By Client Uuid)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="60" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IJhMHQY0hBz8gf7CSggV-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IJhMHQY0hBz8gf7CSggV-44" target="IJhMHQY0hBz8gf7CSggV-48">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="740" y="50" />
+              <mxPoint x="580" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJhMHQY0hBz8gf7CSggV-44" value="Excute Log" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="60" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IJhMHQY0hBz8gf7CSggV-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IJhMHQY0hBz8gf7CSggV-45" target="IJhMHQY0hBz8gf7CSggV-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IJhMHQY0hBz8gf7CSggV-45" value="LifeCycle Manage&lt;br&gt;(Register, Banned, Health Check)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="420" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IJhMHQY0hBz8gf7CSggV-48" value="Deploy Portal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="-30" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
